@@ -12,6 +12,9 @@
   var error = document.querySelector('.callback__error');
   var successLink = form.querySelector('.callback__link');
 
+  var im = new Inputmask('+7( 999 ) 999 - 99 - 99');
+
+  im.mask(phone);
 
   agreement.setCustomValidity('Данное поле должно быть отмечено');
 

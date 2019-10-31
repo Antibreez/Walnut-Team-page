@@ -483,9 +483,9 @@ input.input:-ms-input-placeholder {
 }
 @media (min-width: 768px) {
   .page-header {
-    width: 768px;
-    padding-left: 40px;
-    padding-right: 40px;
+    min-width: 768px;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
   }
 }
 @media (min-width: 1390px) {
@@ -857,8 +857,8 @@ input.callback__input:nth-child(2) {
   .page-header {
     padding-top: 37px;
     min-height: 474px;
-    background-size: 768px 512px;
-    background-position: top -22px center;
+    background-size: cover;
+    background-position: bottom center;
   }
   .page-header__wrapper2 {
     -webkit-box-orient: horizontal;
@@ -1013,9 +1013,9 @@ input.callback__input:nth-child(2) {
 }
 @media (min-width: 1390px) and (min-width: 768px) {
   .page-header__wrapper1 {
-    width: 768px;
-    padding-left: 40px;
-    padding-right: 40px;
+    min-width: 768px;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
   }
 }
 @media (min-width: 1390px) and (min-width: 1390px) {
@@ -1027,9 +1027,9 @@ input.callback__input:nth-child(2) {
 }
 @media (min-width: 1390px) and (min-width: 768px) {
   .page-header__wrapper2 {
-    width: 768px;
-    padding-left: 40px;
-    padding-right: 40px;
+    min-width: 768px;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
   }
 }
 @media (min-width: 1390px) and (min-width: 1390px) {
@@ -1193,6 +1193,8 @@ div.request__success::before {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 690px;
+    margin: 0 auto;
   }
   .request__agreement {
     margin: 0 auto;
@@ -1209,6 +1211,9 @@ div.request__success::before {
   .request__description {
     margin-bottom: 23px;
     font-size: 18px;
+  }
+  .request__form {
+    width: 100%;
   }
   .request__agreement {
     margin-bottom: 53px;
